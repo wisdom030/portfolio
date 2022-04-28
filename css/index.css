@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #333333;
+}
+
+hr {
+  width: 800px;
+  margin: 0 auto;
+  height: 0.5px;
+  background: #eeeeee;
+}
+
+.menu {
+  position: fixed;
+  background: #4acaa8;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+}
+
+.menu span {
+  text-align: center;
+  font-size: 15px;
+  padding-left: 40px;
+  line-height: 50px;
+  cursor: pointer;
+  color: white;
+}
+
+#first_page {
+  width: 100%;
+  height: 400px;
+  padding-top: 50px;
+}
+
+#first_page .first_page_text {
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+}
+
+#first_page .first_page_text h1 {
+  font-size: 50px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  color: #4acaa8;
+}
+
+#first_page .first_page_text p {
+  font-size: 15px;
+  line-height: 40px;
+}
+
+#second_page {
+  width: 100%;
+  height: 400px;
+  padding-top: 50px;
+}
+
+#second_page .second_page_text {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#second_page .second_page_text .second_page_text_01 {
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+
+#second_page .second_page_text .second_page_text_01 h1 {
+  font-size: 30px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+#second_page .second_page_text .second_page_text_01 p {
+  padding-top: 10px;
+}
+
+#second_page .second_page_text .second_page_text_01 .graph {
+  width: 200px;
+  border: 1px solid #333333;
+  position: relative;
+  bottom: 20px;
+  left: 100px;
+}
+
+#second_page .second_page_text .second_page_text_01 .graph .bar {
+  background: #4acaa8;
+  text-align: center;
+  color: white;
+}
+
+#second_page .second_page_text .second_page_text_01 .graph #html {
+  width: 90%;
+}
+
+#second_page .second_page_text .second_page_text_01 .graph #css {
+  width: 90%;
+}
+
+#second_page .second_page_text .second_page_text_02 {
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+
+#second_page .second_page_text .second_page_text_02 h1 {
+  font-size: 30px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+#second_page .second_page_text .second_page_text_02 p {
+  position: relative;
+  top: 160px;
+}
+
+#second_page .second_page_text .second_page_text_02 .graph {
+  width: 200px;
+  border: 1px solid #333333;
+  position: relative;
+  top: 140px;
+  left: 100px;
+}
+
+#second_page .second_page_text .second_page_text_02 .graph .bar {
+  background: #4acaa8;
+  text-align: center;
+  color: white;
+}
+
+#second_page .second_page_text .second_page_text_02 .graph #javascript {
+  width: 70%;
+}
+
+#second_page .second_page_text .second_page_text_02 .graph #jquery {
+  width: 70%;
+}
+
+.third_page {
+  width: 100%;
+}
+
+.third_page .third_page_text {
+  width: 800px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.third_page .third_page_text h1 {
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.third_page .portfolio {
+  width: 500px;
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border: 2px solid #4acaa8;
+}
+
+.third_page .portfolio a .portfolio_link {
+  width: 200px;
+  height: 200px;
+  background: #4acaa8;
+  float: left;
+}
+
+.third_page .portfolio a .portfolio_link p {
+  line-height: 200px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.third_page .portfolio .portfolio_text {
+  width: 300px;
+  height: 200px;
+  float: left;
+}
+
+.third_page .portfolio .portfolio_text p {
+  position: relative;
+  top: 70px;
+  text-align: center;
+  line-height: 30px;
+}
+/*# sourceMappingURL=index.css.map */
